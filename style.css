@@ -31,7 +31,7 @@ nav a:hover{
      
              display:inline-block;
             text-align: center;
-             width:30px;
+             width:30%;
              vertical-align:top;
              background-color: gray;
              margin: 0 1.5%;
@@ -68,4 +68,5 @@ nav a:hover{
         margin: 10px 0 0;
         margin-top: 10px;
 }
+
 
