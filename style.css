@@ -8,11 +8,17 @@ nav {position: absolute;
 nav li{display: inline;
          margin:0 0 0 15px;}
 
-nav a {text-transform: uppercase;t
+nav a {text-transform: uppercase;
                  color: black;
                  font-weight: bold;
                  font-size: 22px;
-                 text-decoration: none ;}
+                 text-decoration: none;
+}
+
+nav a:hover{
+        color: blue;
+        text-decoration: underline;
+}
 
 .caixa{position: relative;
         width: 940px;
@@ -26,9 +32,40 @@ nav a {text-transform: uppercase;t
              display:inline-block;
             text-align: center;
              width:30px;
-             vertical-align:top;}
+             vertical-align:top;
+             background-color: gray;
+             margin: 0 1.5%;
+             padding: 30px 20px;
+             box-sizing: border-box;
+             border: 2px solid black;
+             border-radius: 10px;
+        }
+.produtos li hover{
+        border-color: blue;
+       
+}
+
+.produtos li :active{
+        border-color: blue;
+}
+
+.produtos li:hover h2{
+        font-size: 40px ;
+}
+             
 
 .produtos h2{
         font-size: 30px;
+        font-weight:bold;
+}
+.produtos-descrição {
+        font-size: 18px;
+}
 
-        font-weight:bold;}
+.produtos-preço {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 10px 0 0;
+        margin-top: 10px;
+}
+
